@@ -59,3 +59,37 @@ img {
     line-height: 70px;
    font-size: 25px;
 }
+
+.container1 {
+    text-align: center;
+  }
+  
+ 
+/* ảnh */
+.img-container {
+  text-align: center; /* canh giữa phần tử trong container */
+  position: relative; /* để tạo hover effect */
+  margin-top: 120px;
+}
+
+.img-container img {
+  width: 59%;
+  height: 63%;
+  display: block;
+  padding-left: 19%;
+}
+
+.img-container p {
+  margin-top: 36px; /* khoảng cách giữa ảnh và đoạn văn bản */
+  font-size: 25px;
+}
+
+.img-container img:hover {
+  opacity: 0.8; /* làm mờ hình ảnh */
+  transform: scale(1.1); /* làm to hình ảnh */
+}
+.y{
+  text-align:justify ;
+  line-height:1.5 ;
+  margin: 1px 281px 1px ;
+}
